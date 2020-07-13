@@ -66,38 +66,46 @@ let maze = [
   [' ', ' ', ' ', ' ', ' ', ' ', 'e']
 ];
 
-function mazeWalker(maze, row = 0, column = 0) {
-  if (maze[row][column] === 'e') {
-    return '';
-  } else if (maze[row][column] === ' ') {
-    maze[row][column] = '*';
-    if (column < maze[row].length - 1 && maze[row][column + 1] !== '*') {
-      return 'R' + mazeWalker(maze, row, column + 1);
-    }
-    if (row < maze.length - 1 && maze[row + 1][column] !== '*') {
-      return 'D' + mazeWalker(maze, row + 1, column);
-    }
-    if (column > 0 && maze[row][column - 1] !== '*') {
-      return 'L' + mazeWalker(maze, row, column - 1);
-    }
-    if (row > 0 && maze[row - 1][column] !== '*') {
-      return 'U' + mazeWalker(maze, row - 1, column);
-    }
-  }
-}
+// function mazeWalker(maze, row = 0, column = 0) {
+//   if (maze[row][column] === 'e') {
+//     return '';
+//   } else if (maze[row][column] === ' ') {
+//     maze[row][column] = '*';
+//     if (column < maze[row].length - 1 && maze[row][column + 1] !== '*') {
+//       return 'R' + mazeWalker(maze, row, column + 1);
+//     }
+//     if (row < maze.length - 1 && maze[row + 1][column] !== '*') {
+//       return 'D' + mazeWalker(maze, row + 1, column);
+//     }
+//     if (column > 0 && maze[row][column - 1] !== '*') {
+//       return 'L' + mazeWalker(maze, row, column - 1);
+//     }
+//     if (row > 0 && maze[row - 1][column] !== '*') {
+//       return 'U' + mazeWalker(maze, row - 1, column);
+//     }
+//   }
+// }
 
 
-console.log(mazeWalker(maze));
+// console.log(mazeWalker(maze));
 
 
+// const anagrams = (word) => {
+//   let result = [];
+//   if (word.length <= 1) {
+//     return [word];
+//   }
 
-// const anagrams = (string, array = []) => {
-//   let workingString = string.split('');
-//   workingString.forEach(array);
-
+//   for (let i = 0; i < word.length; i++) {
+//     let c = word[i];
+//     let remaining = word.slice(0, i) + word.slice(i + 1);
+//     let ans = anagrams(remaining);
+//     ans.forEach(a => result.push(c + a));
+//   }
+//   return result;
 // };
 
-// console.log(anagrams('az'));
+// console.log(anagrams('east'));
 
 
 
