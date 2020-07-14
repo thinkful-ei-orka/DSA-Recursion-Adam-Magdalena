@@ -27,7 +27,6 @@
 
 // function stringSplitter(string, separator) {
 //   let index = string.indexOf(separator);
-//   console.log(string);
 //   if (index === -1) { return [string]; }
 //   return [string.slice(0, index), ...stringSplitter(string.slice(index + 1), separator)];
 // }
@@ -52,19 +51,21 @@
 
 // console.log(factorial(5));
 
-let mySmallMaze = [
-  [' ', ' ', ' '],
-  [' ', '*', ' '],
-  [' ', ' ', 'e']
-];
+//////////////8
 
-let maze = [
-  [' ', ' ', ' ', '*', ' ', ' ', ' '],
-  ['*', '*', ' ', '*', ' ', '*', ' '],
-  [' ', ' ', ' ', ' ', ' ', ' ', ' '],
-  [' ', '*', '*', '*', '*', '*', ' '],
-  [' ', ' ', ' ', ' ', ' ', ' ', 'e']
-];
+// let mySmallMaze = [
+//   [' ', ' ', ' '],
+//   [' ', '*', ' '],
+//   [' ', ' ', 'e']
+// ];
+
+// let maze = [
+//   [' ', ' ', ' ', '*', ' ', ' ', ' '],
+//   ['*', '*', ' ', '*', ' ', '*', ' '],
+//   [' ', ' ', ' ', ' ', ' ', ' ', ' '],
+//   [' ', '*', '*', '*', '*', '*', ' '],
+//   [' ', ' ', ' ', ' ', ' ', ' ', 'e']
+// ];
 
 // function mazeWalker(maze, row = 0, column = 0) {
 //   if (maze[row][column] === 'e') {
