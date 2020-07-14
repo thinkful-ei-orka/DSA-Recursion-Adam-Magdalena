@@ -1,0 +1,32 @@
+1.1 - O(1) - Array indexing
+1.2 - O(n) - Goes through the array on each iteration, size scales with array (population) size
+2 - O(1) - binary function
+3 - O(n^2) - double for loop
+4 - O(n) - indexes each array element and doubles it.
+5 - O(n) - indexed each array element
+6 - O(n^2) - double for loop
+7 - O
+8
+9
+10
+11
+
+12 - see Checkpoint-3.js
+
+Recursive
+13.1 - O(n) - makes a new call for each number greater than 0
+13.2 - O(n) - makes a new call for each exponent greater than 1
+13.3 - O(n) - scales with the size of the string
+13.4 - O(n) - makes a new call for each
+13.5 - O(n) - makes a new call for each value > 1
+13.6 - O(log(n)) - makes a new call for each instance of the separator
+13.7 - O(n) - makes a new call for each step of the sequence
+
+Iterative
+14.1 - O(n) - for loop used to iterate
+14.2 - O(1) - math done using an operator, simple mathmatic function
+14.3 - O(n) - for loop to iterate
+14.4 - O(n) - for loop to sum
+14.5 - O(n) - for loop to build ouptut array
+14.6 - O(n) - for loop to build output array
+14.7 - O(n) - for loop to calculate the returned value
