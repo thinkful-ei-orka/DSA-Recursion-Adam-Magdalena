@@ -5,11 +5,13 @@
 4 - O(n) - indexes each array element and doubles it.
 5 - O(n) - indexed each array element
 6 - O(n^2) - double for loop
-7 - O
-8
-9
-10
-11
+7 - O(n) - builds the fibonnacci sequence starting with 0, building do the degree of 'num'. Scales with num.
+8 - O(log(n)) - assuming sorted arrays, filters out half of the array at a time to find the index of a given value
+9 - O(1) - it's pulling a random element from the array, but it's just a straight indexing
+10 - O(n) - determines if a value is a prime number or not. must iterate through all previous values to determine if  the value is prime.
+
+
+11 - O(2^n) - moves exponentially grow with each added disc
 
 12 - see Checkpoint-3.js
 
